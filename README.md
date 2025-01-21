@@ -1,6 +1,6 @@
 # Fetch_Take_Home_Assessment
 ## Overview
-This repository contains datasets, Python notebooks, and SQL queries for data analysis and visualization related to a series of questions in a take-home assessment. The main components of the repository are as follows:
+This repository contains cleaned datasets, and Python notebooks, and SQL queries for data analysis and visualization related to a series of questions in a take-home assessment. The main components of the repository are as follows:
 
 - Cleaned Datasets (ZIP file): The datasets for users, transactions, and products have been cleaned and processed. These datasets are packaged into a zip file for easy access.
 
@@ -8,23 +8,22 @@ This repository contains datasets, Python notebooks, and SQL queries for data an
 
 - Python Notebook - SQL.ipynb: This notebook contains the SQL queries used to answer both closed-ended and open-ended questions posed in the assessment. The queries were executed using SQLite, as an alternative to working with MySQL servers due to some technical limitations.
 
-- Python Notebook - Visualizations.ipynb: This notebook provides visualizations that help in understanding the results of the SQL queries. The visualizations are designed to present the data in an accessible manner for non-technical stakeholders, allowing them to interpret the results easily.
+- Python Notebook - Visualizations.ipynb: This notebook provides visualizations that help in understanding the results of the SQL queries. The visualizations are designed to present the insights in an accessible manner for non-technical stakeholders, allowing them to interpret the results easily.
 
-## Technical Issues Encountered
+## Technical Considerations & Alternative approaches:
 While working with the datasets and the SQL queries, I faced the following technical challenges:
 
-- MySQL Server & Workbench Issues: There were issues with loading large amounts of data into the MySQL server and MySQL Workbench. The datasets were too large to efficiently process, which limited my ability to run complex SQL queries or fully utilize the power of MySQL for large-scale data analysis.
+- MySQL Server & Workbench Issues: I ran into issues uploading the datasets into MySQL Workbench, possibly due to their large size. After spending considerable time trying to troubleshoot the problem, I started looking into alternatives and came up with the idea of using Jypter. 
 
-- SQL Server Connection Issues with DAX (Power BI): Due to the technical difficulties with MySQL, I was unable to connect the SQL server to DAX (Power BI). This would have allowed for more dynamic and appealing visualizations, as well as the creation of an interactive dashboard.
+- SQL Server Connection Issues with DAX (Power BI): Initially, I planned on connecting SQL server to DAX within Power BI for interactive and easy-to-understand visualizations. However, this was not possible due to technical concerns sue to inconsistent updates in my servers . Exploring my next options, I settled upon using Python for accessible visualizations, forgoing the dynamic aspect. 
 
-## Alternative Approach with Anaconda Jupyter
-
-Due to the above limitations, I had to use Anaconda Jupyter Notebooks to perform both SQL analysis and data visualizations. While this provided an alternative way to obtain the necessary results, it limited the ability to create more interactive, user-friendly dashboards that could be more appealing for stakeholders.
-
-## Folder Structure
+## Folder Contents:
 - cleaned_data.zip: Contains the cleaned datasets for users, transactions, and products.
 - Data_Quality_check_&_transform.ipynb: Python notebook for data cleaning and transformation.
 - SQL.ipynb: Python notebook with SQL queries for the closed-ended and open-ended questions.
 - Visualizations.ipynb: Python notebook with visualizations of the SQL query results for easy interpretation.
+- Power point:
+- word -that has drafted email
+  
 ## Conclusion
-Despite the technical challenges, the datasets were thoroughly cleaned, SQL queries were successfully executed using SQLite, and insightful visualizations were created to help non-technical stakeholders interpret the data. The repository offers a complete analysis pipeline, from data processing to presenting the results in a user-friendly manner.
+Despite facing technical challenges, I was able to thoroughly clean the datasets, successfully execute SQL queries using SQLite, and create insightful visualizations to help non-technical stakeholders interpret the data. The repository offers a complete analysis pipeline, from data processing to presenting the results in a user-friendly manner.
