@@ -22,8 +22,7 @@ While working with the datasets and the SQL queries, I faced the following techn
 - Data_Quality_check_&_transform.ipynb: Python notebook for data cleaning and transformation.
 - SQL.ipynb: Python notebook with SQL queries for the closed-ended and open-ended questions.
 - Visualizations.ipynb: Python notebook with visualizations of the SQL query results for easy interpretation.
-- Power point:
-- word -that has drafted email
+- Email Draft.docx - Draft of an email with a summary that needs to be communicated to Stakeholders.
   
 ## Conclusion
 Despite facing technical challenges, I was able to thoroughly clean the datasets, successfully execute SQL queries using SQLite, and create insightful visualizations to help non-technical stakeholders interpret the data. The repository offers a complete analysis pipeline, from data processing to presenting the results in a user-friendly manner.
