@@ -15,7 +15,7 @@ While working with the datasets and the SQL queries, I faced the following techn
 
 - MySQL Server & Workbench Issues: I ran into issues uploading the datasets into MySQL Workbench, possibly due to their large size. After spending considerable time trying to troubleshoot the problem, I started looking into alternatives and came up with the idea of using Jypter. 
 
-- SQL Server Connection Issues with DAX (Power BI): Initially, I planned on connecting SQL server to DAX within Power BI for interactive and easy-to-understand visualizations. However, this was not possible due to technical concerns sue to inconsistent updates in my servers . Exploring my next options, I settled upon using Python for accessible visualizations, forgoing the dynamic aspect. 
+- SQL Server Connection Issues with DAX (Power BI): Initially, I planned on connecting SQL server to DAX within Power BI for interactive and easy-to-understand visualizations. However, this was not possible due to technical concerns due to inconsistent updates in my servers . Exploring my next options, I settled upon using Python for accessible visualizations, forgoing the dynamic aspect. 
 
 ## Folder Contents:
 - cleaned_data.zip: Contains the cleaned datasets for users, transactions, and products.
